@@ -1,0 +1,67 @@
+#
+# A customized theme, based on the nicoulaj theme.
+#
+# Authors:
+#   Julien Nicoulaud <julien.nicoulaud@gmail.com>
+#   Sorin Ionescu <sorin.ionescu@gmail.com>
+#   Dustin Popp <dpopp07@gmail.com>
+#
+# Features:
+#   - One line
+#   - Unicolored prompt
+#   - Current directory in the left prompt
+#   - VCS information in the right prompt:
+#       - Current branch
+#       - Unstaged / staged changes
+#
+
+function prompt_iroh_precmd {
+  vcs_info
+}
+
+function prompt_iroh_setup {
+  setopt LOCAL_OPTIONS
+  unsetopt XTRACE KSH_ARRAYS
+  prompt_opts=(cr percent sp subst)
+
+  # Load required functions.
+  autoload -Uz add-zsh-hook
+  autoload -Uz vcs_info
+
+  # Add hook for calling vcs_info before each command.
+  add-zsh-hook precmd prompt_iroh_precmd
+
+  # Customizable parameters.
+  local user_char=' $'
+  local prompt_info_color='%F{cyan}'
+
+  # Set vcs_info parameters.
+  zstyle ':vcs_info:*' enable git
+  zstyle ':vcs_info:*' check-for-changes true
+  zstyle ':vcs_info:*' unstagedstr '---U'
+  zstyle ':vcs_info:*' stagedstr '---S'
+  zstyle ':vcs_info:*' actionformats "(%b%u%c) [%a]"
+  zstyle ':vcs_info:*' formats "(%b%u%c)"
+  zstyle ':vcs_info:*' nvcsformats ""
+
+  # Define prompts.  
+  PROMPT="${prompt_info_color}[%1~]${user_char}%f "
+  RPROMPT="${prompt_info_color}"'${vcs_info_msg_0_}'"%f"
+}
+
+prompt_iroh_setup "$@"
+
+#            * * * NOTES * * *
+
+# %F{<color>}<stuff>%f defines a colored block
+# %<int>~ displays pwd, with home replaced by ~. the int definies how many trailing folders are seen
+# formats is the primary string for VCS.  There can be a list of defined styles, writted as "<style0>" "<style1>" etc
+#   vcs_info_msg_<N>_ indicates which to use 
+
+# for formats:
+# %r The repository name. If %R is /foo/bar/repoXY, %r is repoXY.
+# %u The string from the unstagedstr style if there are unstaged changes in the repository.
+# %c The string from the stagedstr style if there are staged changes in the repository.
+# %b Information about the current branch.
+
+# actionformats is just what to display when there is a specific action, like a merge conflict

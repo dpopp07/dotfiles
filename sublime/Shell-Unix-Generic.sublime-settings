@@ -1,0 +1,9 @@
+{
+	"extensions":
+	[
+		".zpreztorc",
+		".zprofile",
+    "zshrc",
+		"prompt_iroh_setup"
+	]
+}
