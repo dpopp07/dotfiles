@@ -25,6 +25,8 @@
 				<string>#2e4430</string>
 				<key>selection</key>
 				<string>#000000</string>
+        <key>selectionBorder</key>
+        <string>#22b588</string>
 			</dict>
 		</dict>
 		<dict>
