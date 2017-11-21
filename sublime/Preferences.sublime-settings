@@ -1,16 +1,18 @@
 {
+	"auto_complete_delay": 1,
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Agila Theme/BlueSteel.tmTheme",
-	"font_size": 17,
+	"color_scheme": "Packages/User/SublimeLinter/BlueSteel (SL).tmTheme",
+	"ensure_newline_at_eof_on_save": false,
+	"font_size": 15,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
 	"show_definitions": false,
 	"tab_size": 2,
 	"theme": "LaTigra.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": false,
-	"ensure_newline_at_eof_on_save": false,
-	"auto_complete_delay": 1
+	"trim_trailing_white_space_on_save": false
 }

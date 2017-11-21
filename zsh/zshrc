@@ -12,3 +12,6 @@ fi
 
 # Customize to your needs...
 . /usr/local/etc/profile.d/z.sh
+
+# added by travis gem
+[ -f /Users/dpopp/.travis/travis.sh ] && source /Users/dpopp/.travis/travis.sh
