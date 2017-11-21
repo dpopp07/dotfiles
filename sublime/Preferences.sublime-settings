@@ -14,5 +14,8 @@
 	"tab_size": 2,
 	"theme": "LaTigra.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": false
+	"trim_trailing_white_space_on_save": false,
+	"ensure_newline_at_eof_on_save": false,
+	"auto_complete_delay": 1,
+	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?"
 }
