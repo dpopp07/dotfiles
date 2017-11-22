@@ -1,5 +1,5 @@
 [core]
-	excludesfile = /Users/dustinpopp/.gitignore_global
+	excludesfile = /Users/dpopp/.gitignore_global
 	editor = subl -n -w
 [filter "lfs"]
 	clean = git-lfs clean -- %f
