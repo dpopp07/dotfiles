@@ -287,64 +287,31 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>JSON - 18 deep</string>
+            <string>JSON - 12 deep</string>
+            <key>scope</key>
+            <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#f70909</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JSON - 11 deep</string>
+            <key>scope</key>
+            <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#B093FA</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JSON - 10 deep</string>
             <key>scope</key>
             <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#F50AFF</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>JSON - 17 deep</string>
-            <key>scope</key>
-            <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#ACFF04</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>JSON - 16 deep</string>
-            <key>scope</key>
-            <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#18FFFA</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>JSON - 15 deep</string>
-            <key>scope</key>
-            <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FF5A60</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>JSON - 14 deep</string>
-            <key>scope</key>
-            <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#1471FF</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>JSON - 13 deep</string>
-            <key>scope</key>
-            <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -353,20 +320,53 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>JSON - 12 deep</string>
+            <string>JSON - 9 deep</string>
             <key>scope</key>
-            <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+            <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#22FF31</string>
+                <string>#578be5</string>
             </dict>
         </dict>
         <dict>
             <key>name</key>
-            <string>JSON - 11 deep</string>
+            <string>JSON - 8 deep</string>
+            <key>scope</key>
+            <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#22b588</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JSON - 7 deep</string>
+            <key>scope</key>
+            <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFE100</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JSON - 6 deep</string>
             <key>scope</key>
             <string>source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#08ce02</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>JSON - 5 deep</string>
+            <key>scope</key>
+            <string>source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -375,101 +375,35 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>JSON - 10 deep</string>
-            <key>scope</key>
-            <string>source.json meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FF0C77</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>JSON - 9 deep</string>
-            <key>scope</key>
-            <string>source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFA02</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>JSON - 8 deep</string>
-            <key>scope</key>
-            <string>source.json meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#F50AFF</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>JSON - 7 deep</string>
+            <string>JSON - 4 deep</string>
             <key>scope</key>
             <string>source.json meta meta meta meta meta meta meta meta.structure.dictionary string</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#ACFF04</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>JSON - 6 deep</string>
-            <key>scope</key>
-            <string>source.json meta meta meta meta meta meta meta.structure.dictionary string</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#18FFFA</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>JSON - 5 deep</string>
-            <key>scope</key>
-            <string>source.json meta meta meta meta meta meta.structure.dictionary string</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FF5A60</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>name</key>
-            <string>JSON - 4 deep</string>
-            <key>scope</key>
-            <string>source.json meta meta meta meta meta.structure.dictionary string</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#1471FF</string>
+                <string>#7ddb86</string>
             </dict>
         </dict>
         <dict>
             <key>name</key>
             <string>JSON - 3 deep</string>
             <key>scope</key>
-            <string>source.json meta meta meta meta.structure.dictionary string</string>
+            <string>source.json meta meta meta meta meta meta.structure.dictionary string</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FF8D04</string>
+                <string>#00FFFF</string>
             </dict>
         </dict>
         <dict>
             <key>name</key>
             <string>JSON - 2 deep</string>
             <key>scope</key>
-            <string>source.json meta meta meta.structure.dictionary string</string>
+            <string>source.json meta meta meta meta.structure.dictionary string</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#22FF31</string>
+                <string>#06B07D</string>
             </dict>
         </dict>
         <dict>
@@ -480,7 +414,7 @@
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#FF82EC</string>
+                <string>#4BBAFA</string>
             </dict>
         </dict>
 	</array>
