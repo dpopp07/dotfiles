@@ -1,7 +1,11 @@
 {
+	"added_words":
+	[
+		"validator"
+	],
 	"auto_complete_delay": 1,
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/SublimeLinter/BlueSteel (SL).tmTheme",
+	"color_scheme": "Packages/Agila Theme/BlueSteel.tmTheme",
 	"ensure_newline_at_eof_on_save": false,
 	"font_size": 15,
 	"ignored_packages":
