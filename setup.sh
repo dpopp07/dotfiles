@@ -23,7 +23,7 @@ ln -fs ~/dotfiles/sublime/JavaScript\ \(Babel\).sublime-settings ~/Library/Appli
 ln -fs ~/dotfiles/sublime/ColorHighlighter.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 
 # eslint
-ln -fs ~/dotfiles/eslint/eslint.js ~/.eslint.js
+ln -fs ~/dotfiles/eslint/eslintrc.js ~/.eslintrc.js
 
 # install global node modules
 ./installNpmModules.sh
