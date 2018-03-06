@@ -17,4 +17,4 @@ fi
 source /usr/local/Bluemix/bx/zsh_autocomplete
 
 # added by travis gem
-[ -f /Users/dustinpopp/.travis/travis.sh ] && source /Users/dustinpopp/.travis/travis.sh
+[ -f /Users/dpopp/.travis/travis.sh ] && source /Users/dpopp/.travis/travis.sh
