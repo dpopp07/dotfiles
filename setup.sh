@@ -21,6 +21,8 @@ ln -fs ~/dotfiles/sublime/Preferences.sublime-settings ~/Library/Application\ Su
 ln -fs ~/dotfiles/sublime/Shell-Unix-Generic.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 ln -fs ~/dotfiles/sublime/JavaScript\ \(Babel\).sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 ln -fs ~/dotfiles/sublime/ColorHighlighter.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+ln -fs ~/dotfiles/sublime/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+ln -fs ~/dotfiles/sublime/SublimeLinter.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 
 # eslint
 ln -fs ~/dotfiles/eslint/eslintrc.js ~/.eslintrc.js
