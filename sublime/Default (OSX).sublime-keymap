@@ -1,0 +1,3 @@
+[
+  { "keys": ["super+alt+l"], "command": "sublime_linter_toggle_highlights" }
+]
