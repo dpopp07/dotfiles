@@ -30,6 +30,7 @@ if ! zstyle -t ':prezto:module:git:alias' skip 'yes'; then
   # Git
   alias g='git'
   alias gis='git status'
+  alias gic='git log --pretty=format:'%H' -n 1'
 
   # Branch (b)
   alias gb='git branch'

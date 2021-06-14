@@ -9,3 +9,15 @@
 [user]
 	name = Dustin Popp
 	email = dpopp07@gmail.com
+[commit]
+	gpgsign = false
+[hub]
+	host = github.ibm.com
+[url "git@github.ibm.com:"]
+	insteadOf = https://github.ibm.com/
+[branch]
+	sort = -committerdate
+[status]
+	showUntrackedFiles = normal
+[pull]
+	rebase = false
