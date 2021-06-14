@@ -9,7 +9,7 @@ modules=(
   "eslint-config-prettier"
   "eslint-plugin-prettier"
   "nodemon"
-  "mocha"
+  "jest"
 )
 
 for i in "${modules[@]}"
