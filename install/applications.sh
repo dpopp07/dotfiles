@@ -1,7 +1,7 @@
 cd ~
 
 # install developer tools
-xcode-select --install
+# xcode-select --install (i think that macos prompts you for this when you run git)
 
 # install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
