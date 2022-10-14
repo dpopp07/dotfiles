@@ -11,3 +11,8 @@ fi
 if [ ! -d "~/npm-global" ]; then
   mkdir ~/npm-global
 fi
+
+if [ ! -d "~/go" ]; then
+  mkdir -p ~/go/{bin,src,pkg}
+fi
+

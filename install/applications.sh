@@ -18,11 +18,10 @@ brew install --cask iterm2
 brew install --cask sublime-text
 brew install --cask spotmenu
 
+brew install golang
 brew install z
 brew install jq
 brew install git-delta
-brew install delve
-brew install n
 brew install duti
 
 ## work specific

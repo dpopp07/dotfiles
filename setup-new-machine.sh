@@ -7,6 +7,8 @@
 # link configuration and settings files
 ./setup/link-files.sh
 
+./install/post-link-applications.sh
+
 # execute duti
 duti ~/.config/duti/.duti
 
