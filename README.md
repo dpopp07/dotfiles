@@ -1,4 +1,3 @@
 # dotfiles
-Various files I use for my development environment.
 
-This is a work in progreess.
+Config files, settings, and installation scripts for setting up new development machines.

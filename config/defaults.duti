@@ -1,0 +1,522 @@
+# duti settings file
+# based on (straight-up copied from) this gist: 
+#   https://gist.github.com/apfelchips/0073cb3e8d186115f590d318998c1025
+# which also includes some helpful documentation that I've omitted here
+
+# Unknown filetypes
+com.sublimetext.4 public.data    editor
+
+# Executables
+com.sublimetext.4 public.unix-executable    editor
+
+# Plain text
+com.sublimetext.4 txt    editor
+com.sublimetext.4 public.plain-text    editor
+
+com.sublimetext.4 text    editor
+com.sublimetext.4 dic    editor
+com.sublimetext.4 dict    editor
+com.sublimetext.4 nfo    editor
+com.sublimetext.4 diz    editor
+com.sublimetext.4 inf    editor
+com.sublimetext.4 info    editor
+com.sublimetext.4 label    editor
+com.sublimetext.4 properties    editor
+
+com.sublimetext.4 tmp    editor
+com.sublimetext.4 temp    editor
+com.sublimetext.4 tpl    editor
+com.sublimetext.4 tmpl    editor
+com.sublimetext.4 template    editor
+com.sublimetext.4 manifest    editor
+
+## LOGGING
+com.sublimetext.4 log    editor
+com.sublimetext.4 err    editor
+com.sublimetext.4 crash    editor
+
+# Samba log file
+com.sublimetext.4 nmbd    editor
+
+com.sublimetext.4 panic    editor
+com.sublimetext.4 report    editor
+
+## Config files
+com.sublimetext.4 cfg    editor
+com.sublimetext.4 cnf    editor
+com.sublimetext.4 conf    editor
+com.sublimetext.4 config    editor
+com.sublimetext.4 configure    editor
+com.sublimetext.4 prop    editor
+com.sublimetext.4 setting    editor
+com.sublimetext.4 settings    editor
+com.sublimetext.4 bak    editor
+com.sublimetext.4 rule    editor
+com.sublimetext.4 rules    editor
+
+com.sublimetext.4 vmwarevm    editor
+
+# SystemD
+com.sublimetext.4 service    editor
+
+com.sublimetext.4 editorconfig    editor
+com.sublimetext.4 lock    editor
+com.sublimetext.4 duti    editor
+com.vladbadea.plisteditor plist    editor
+
+## GIT
+com.sublimetext.4 git    editor
+com.sublimetext.4 gitignore    editor
+com.sublimetext.4 gitmodules    editor
+com.sublimetext.4 gitconfig    editor
+com.sublimetext.4 git_message    editor
+com.sublimetext.4 gitattributes    editor
+
+com.sublimetext.4 patch    editor
+
+## VIM
+com.sublimetext.4 vim    editor
+com.sublimetext.4 neovim    editor
+com.sublimetext.4 vimrc    editor
+com.sublimetext.4 viminfo    editor
+
+### Apache
+com.sublimetext.4 apacheconf    editor
+com.sublimetext.4 vhost    editor
+
+# Certs, GNUPG, PGP, GPG, Keys and Secrets
+com.sublimetext.4 pem    editor
+com.sublimetext.4 pub    editor
+com.sublimetext.4 key    editor
+com.sublimetext.4 rsa    editor
+com.sublimetext.4 dsa    editor
+com.sublimetext.4 ca    editor
+com.sublimetext.4 crt    editor
+com.sublimetext.4 csr    editor
+com.sublimetext.4 cert    editor
+com.sublimetext.4 x509    editor
+com.sublimetext.4 rev    editor
+com.sublimetext.4 gpg    editor
+com.sublimetext.4 pgp    editor
+com.sublimetext.4 sig    editor
+
+# SUBTITLES
+com.sublimetext.4 srt    editor
+com.sublimetext.4 vtt    editor
+com.sublimetext.4 sub    editor
+com.sublimetext.4 io.mpv.sub     editor
+com.sublimetext.4 idx    editor
+com.sublimetext.4 io.mpv.vobsub   editor
+com.sublimetext.4 ass    editor
+com.sublimetext.4 vss    editor
+
+# LICENSES / readme
+# eg.: read.me
+com.sublimetext.4 me    editor
+com.sublimetext.4 readme    editor
+
+com.sublimetext.4 lic    editor
+com.sublimetext.4 license    editor
+com.sublimetext.4 gpl    editor
+com.sublimetext.4 gpl2    editor
+com.sublimetext.4 gpl3    editor
+com.sublimetext.4 mit    editor
+com.sublimetext.4 apache    editor
+com.sublimetext.4 mozilla    editor
+
+# Markup / Configuration Files
+# XML
+com.sublimetext.4 xml    editor
+#com.sublimetext.4 application/xml editor
+#com.sublimetext.4 text/xml    editor
+#com.sublimetext.4 application/atom+xml    editor
+#com.sublimetext.4 application/xhtml+xml    editor
+com.sublimetext.4 ovf    editor
+com.sublimetext.4 mobileconfig    editor
+com.sublimetext.4 reg    editor
+com.sublimetext.4 strings    editor
+
+# Calibre metadata
+com.sublimetext.4 opf    editor
+
+com.sublimetext.4 xul    editor
+#com.sublimetext.4 application/vnd.mozilla.xul+xml    editor
+
+com.sublimetext.4 yml    editor
+com.sublimetext.4 yaml    editor
+com.sublimetext.4 ini    editor
+com.sublimetext.4 json    editor
+com.sublimetext.4 jsonc    editor
+com.sublimetext.4 json5    editor
+com.sublimetext.4 jsonnet    editor
+#com.sublimetext.4 application/json editor
+
+com.sublimetext.4 dhall    editor
+com.sublimetext.4 csv    editor
+com.sublimetext.4 opml    editor
+com.sublimetext.4 xul    editor
+
+# MARKDOWN / RST
+com.sublimetext.4 rst    editor
+com.sublimetext.4 md    editor
+com.sublimetext.4 mdtxt    editor
+com.sublimetext.4 rmd    editor
+com.sublimetext.4 mark    editor
+com.sublimetext.4 markdown    editor
+com.sublimetext.4 multimarkdow    editor
+
+# SHELL
+com.sublimetext.4 sh    editor
+com.sublimetext.4 bash    editor
+com.sublimetext.4 zsh    editor
+com.sublimetext.4 ksh    editor
+com.sublimetext.4 csh    editor
+com.sublimetext.4 fish    editor
+com.sublimetext.4 script    editor
+
+# HTML and derivates
+com.sublimetext.4 html5    editor
+com.sublimetext.4 xhtm    editor
+com.sublimetext.4 xhtml    editor
+#com.sublimetext.4 application/xhtml+xml    editor
+com.sublimetext.4 rhtml    editor
+com.sublimetext.4 jhtml    editor
+com.sublimetext.4 phtml    editor
+com.sublimetext.4 htmls    editor
+com.sublimetext.4 manhtml    editor
+# Apache FancyIndexing pages
+com.sublimetext.4 html?C=N;O=A   editor
+com.sublimetext.4 html?C=N;O=D   editor
+com.sublimetext.4 html?C=M;O=A   editor
+com.sublimetext.4 html?C=M;O=D   editor
+com.sublimetext.4 html?C=D;O=A   editor
+com.sublimetext.4 html?C=D;O=D   editor
+com.sublimetext.4 html?C=S;O=A   editor
+com.sublimetext.4 html?C=S;O=D   editor
+
+# Shell Scripts / Configuration
+com.sublimetext.4 command    editor
+
+com.sublimetext.4 cmd    editor
+com.sublimetext.4 bat    editor
+com.sublimetext.4 vbs    editor
+com.sublimetext.4 ps    editor
+com.sublimetext.4 ps1    editor
+
+com.sublimetext.4 rc    editor
+com.sublimetext.4 inputrc    editor
+com.sublimetext.4 bashrc    editor
+com.sublimetext.4 bash_history    editor
+com.sublimetext.4 shrc    editor
+com.sublimetext.4 shinit    editor
+com.sublimetext.4 profile    editor
+com.sublimetext.4 zshrc    editor
+com.sublimetext.4 zlogin    editor
+com.sublimetext.4 zlogout    editor
+com.sublimetext.4 zprofile    editor
+com.sublimetext.4 zpreztorc    editor
+com.sublimetext.4 zshenv    editor
+com.sublimetext.4 zhistory    editor
+com.sublimetext.4 env    editor
+com.sublimetext.4 environment    editor
+com.sublimetext.4 example    editor
+
+# Sublime Text Files
+com.sublimetext.4 sublime-project    editor
+com.sublimetext.4 sublime-workspace    editor
+com.sublimetext.4 sublime-snippet    editor
+com.sublimetext.4 sublime-build    editor
+com.sublimetext.4 sublime-commands    editor
+com.sublimetext.4 sublime-keymap    editor
+com.sublimetext.4 sublime-mousemap    editor
+com.sublimetext.4 sublime-macro    editor
+com.sublimetext.4 sublime-syntax    editor
+com.sublimetext.4 sublime-settings    editor
+com.sublimetext.4 tmPreferences    editor
+com.sublimetext.4 merged-ca-bundle    editor
+com.sublimetext.4 user-ca-bundle    editor
+
+# Project Files
+com.sublimetext.4 pro    editor
+
+# Programming Languages
+## https://github.com/adobe/brackets/blob/master/src/language/languages.json
+## https://gist.github.com/aymen-mouelhi/82c93fbcd25f091f2c13faa5e0d61760
+
+## JAVA / Android
+com.sublimetext.4 java    editor
+com.sublimetext.4 class    editor
+com.sublimetext.4 vm    editor
+com.sublimetext.4 mf    editor
+
+## JAVASCRIPT, etc...
+com.sublimetext.4 js    editor
+com.sublimetext.4 javascript    editor
+com.sublimetext.4 jsx    editor
+
+com.sublimetext.4 ts    editor
+com.sublimetext.4 typescript    editor
+com.sublimetext.4 tsx    editor
+
+com.sublimetext.4 vue    editor
+
+com.sublimetext.4 coffee    editor
+com.sublimetext.4 _coffee    editor
+com.sublimetext.4 cake    editor
+com.sublimetext.4 cjsx    editor
+com.sublimetext.4 iced    editor
+com.sublimetext.4 eslint    editor
+com.sublimetext.4 eslintrc    editor
+com.sublimetext.4 eslintjs    editor
+com.sublimetext.4 eslintjson    editor
+com.sublimetext.4 es    editor
+
+## CSS
+com.sublimetext.4 css    editor
+com.sublimetext.4 scss    editor
+com.sublimetext.4 less    editor
+com.sublimetext.4 map    editor
+
+## ASP/.NET
+com.sublimetext.4 asp    editor
+com.sublimetext.4 aspx    editor
+com.sublimetext.4 axd    editor
+com.sublimetext.4 asmx    editor
+com.sublimetext.4 ashx    editor
+
+## RUBY
+com.sublimetext.4 rb    editor
+com.sublimetext.4 ruby    editor
+com.sublimetext.4 cr    editor
+
+## Python
+com.sublimetext.4 py    editor
+com.sublimetext.4 pip    editor
+# Jinja2 templates
+com.sublimetext.4 j2    editor
+
+## Haskell
+com.sublimetext.4 hs    editor
+
+## Erlang / Elixir
+com.sublimetext.4 erl    editor
+com.sublimetext.4 exs    editor
+
+## Perl
+com.sublimetext.4 pl    editor
+com.sublimetext.4 perl    editor
+
+## PHP
+com.sublimetext.4 php    editor
+com.sublimetext.4 php3    editor
+com.sublimetext.4 php4    editor
+com.sublimetext.4 php5    editor
+com.sublimetext.4 php7    editor
+com.sublimetext.4 twig    editor
+
+## LaTeX
+com.sublimetext.4 fd    editor
+com.sublimetext.4 bst    editor
+com.sublimetext.4 blg    editor
+com.sublimetext.4 brf    editor
+com.sublimetext.4 cls    editor
+com.sublimetext.4 tex    editor
+com.sublimetext.4 aux    editor
+com.sublimetext.4 lof    editor
+com.sublimetext.4 lot    editor
+com.sublimetext.4 sty    editor
+
+com.sublimetext.4 latexmkrc    editor
+com.sublimetext.4 bib    editor
+
+## Clang, etc.
+com.sublimetext.4 c    editor
+com.sublimetext.4 h    editor
+com.sublimetext.4 w    editor
+
+com.sublimetext.4 cc    editor
+com.sublimetext.4 cp    editor
+com.sublimetext.4 c++    editor
+com.sublimetext.4 cpp    editor
+com.sublimetext.4 cxx    editor
+
+com.sublimetext.4 h++    editor
+com.sublimetext.4 hh    editor
+com.sublimetext.4 hpp    editor
+com.sublimetext.4 hxx    editor
+com.sublimetext.4 inc    editor
+com.sublimetext.4 inl    editor
+com.sublimetext.4 icc    editor
+com.sublimetext.4 ipp    editor
+com.sublimetext.4 tpp    editor
+
+# Arduino
+com.sublimetext.4 ino    editor
+
+# c#
+com.sublimetext.4 cs    editor
+com.sublimetext.4 cake    editor
+com.sublimetext.4 csx    editor
+
+com.sublimetext.4 csproj    editor
+com.sublimetext.4 targets    editor
+
+com.sublimetext.4 chs    editor
+
+# swift
+com.sublimetext.4 swift    editor
+
+## Assembly
+com.sublimetext.4 a    editor
+com.sublimetext.4 r    editor
+com.sublimetext.4 asm    editor
+com.sublimetext.4 gas    editor
+com.sublimetext.4 gasm    editor
+com.sublimetext.4 nasm    editor
+com.sublimetext.4 a51    editor
+com.sublimetext.4 inc    editor
+
+### Instruction sets
+com.sublimetext.4 arm    editor
+com.sublimetext.4 arm32    editor
+com.sublimetext.4 arm32v7    editor
+com.sublimetext.4 arm32v8    editor
+com.sublimetext.4 arm64     editor
+com.sublimetext.4 arm64v7    editor
+com.sublimetext.4 arm64v8    editor
+
+com.sublimetext.4 x86     editor
+com.sublimetext.4 x86-64     editor
+com.sublimetext.4 AMD64     editor
+com.sublimetext.4 mips     editor
+
+# Makefiles
+com.sublimetext.4 m4    editor
+com.sublimetext.4 am    editor
+
+com.sublimetext.4 ac    editor
+com.sublimetext.4 sub    editor
+
+com.sublimetext.4 make    editor
+com.sublimetext.4 cmake    editor
+com.sublimetext.4 in    editor
+
+com.sublimetext.4 bsd    editor
+com.sublimetext.4 macos    editor
+com.sublimetext.4 linux    editor
+
+
+## GOlang
+com.sublimetext.4 go    editor
+com.sublimetext.4 golang    editor
+com.sublimetext.4 mod    editor
+com.sublimetext.4 sum    editor
+
+#RUST
+com.sublimetext.4 rst    editor
+com.sublimetext.4 rust   editor
+com.sublimetext.4 s    editor
+
+## Pascal
+com.sublimetext.4 pas    editor
+
+# MISC / other languages
+com.sublimetext.4 lua    editor
+
+com.sublimetext.4 ahk    editor
+com.sublimetext.4 ahkl    editor
+
+com.sublimetext.4 au3    editor
+com.sublimetext.4 awk    editor
+com.sublimetext.4 auk    editor
+com.sublimetext.4 gwak    editor
+com.sublimetext.4 mawk    editor
+com.sublimetext.4 nawk    editor
+
+com.sublimetext.4 jq    editor
+
+com.sublimetext.4 bb     editor
+
+com.sublimetext.4 b    editor
+com.sublimetext.4 bf    editor
+
+com.sublimetext.4 ceylon    editor
+com.sublimetext.4 ch    editor
+com.sublimetext.4 ck    editor
+com.sublimetext.4 cirru    editor
+com.sublimetext.4 clw    editor
+
+com.sublimetext.4 sql    editor
+
+# Docker
+com.sublimetext.4 docker-compose editor
+
+# Terraform
+com.sublimetext.4 tf editor
+com.sublimetext.4 tfvar editor
+
+# Encodings
+com.sublimetext.4 ascii    editor
+com.sublimetext.4 ansi    editor
+com.sublimetext.4 asc    editor
+com.sublimetext.4 axt    editor
+com.sublimetext.4 utf8    editor
+com.sublimetext.4 utx    editor
+com.sublimetext.4 tx8    editor
+
+com.sublimetext.4 att    editor
+com.sublimetext.4 xmp    editor
+
+com.sublimetext.4 tt    editor
+com.sublimetext.4 ver    editor
+
+com.sublimetext.4 textile    editor
+com.sublimetext.4 spec    editor
+com.sublimetext.4 rml    editor
+
+# LOCALISATIONS
+com.sublimetext.4 us    editor
+com.sublimetext.4 es    editor
+com.sublimetext.4 ger    editor
+com.sublimetext.4 de    editor
+com.sublimetext.4 fr    editor
+com.sublimetext.4 it    editor
+com.sublimetext.4 sk    editor
+com.sublimetext.4 cs    editor
+
+# HASHES
+com.sublimetext.4 hash    editor
+com.sublimetext.4 crc    editor
+
+com.sublimetext.4 md4    editor
+com.sublimetext.4 md5    editor
+com.sublimetext.4 sha    editor
+com.sublimetext.4 sha1    editor
+com.sublimetext.4 sha2    editor
+com.sublimetext.4 sha265    editor
+com.sublimetext.4 sha384    editor
+com.sublimetext.4 sha512    editor
+
+com.sublimetext.4 md4sum    editor
+com.sublimetext.4 md5sum    editor
+com.sublimetext.4 shasum    editor
+com.sublimetext.4 sha1sum    editor
+com.sublimetext.4 sha2sum    editor
+com.sublimetext.4 sha265sum    editor
+com.sublimetext.4 sha384sum    editor
+com.sublimetext.4 sha512sum    editor
+
+com.sublimetext.4 md4sums    editor
+com.sublimetext.4 md5sums    editor
+com.sublimetext.4 shasums    editor
+com.sublimetext.4 sha1sums    editor
+com.sublimetext.4 sha2sums    editor
+com.sublimetext.4 sha265sums    editor
+com.sublimetext.4 sha384sums    editor
+com.sublimetext.4 sha512sums    editor
+
+# Linkfiles
+org.mozilla.Firefox url    editor
+org.mozilla.Firefox weblock    editor
+org.mozilla.Firefox fileloc    editor
+com.sublimetext.4 mailtoloc    editor

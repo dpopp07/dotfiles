@@ -14,7 +14,7 @@ modules=(
 
 for i in "${modules[@]}"
 do
-  if [ ! -d "/usr/local/lib/node_modules/${i}" ]; then
+  if [ ! -d "~/npm-global/lib/node_modules/${i}" ]; then
     echo "Installing ${i}..."
     npm i -g $i
     echo ""
