@@ -7,13 +7,13 @@
 # link configuration and settings files
 ./setup/link-files.sh
 
+# refresh profile
+. ~/.zshrc
+
 ./install/post-link-applications.sh
 
 # execute duti
-duti ~/.config/duti/.duti
-
-# refresh profile
-. ~/.zshrc
+duti ~/.config/duti/defaults.duti
 
 # install node and npm modules
 ./install/node.sh

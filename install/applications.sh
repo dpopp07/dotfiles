@@ -6,6 +6,10 @@ cd ~
 # install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# assumes brew --prefix is `/opt/homebrew`,
+# true for apple silicon machines
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # ?? idk where this is coming from but it was run
 # on my current machine right when i got it
 brew install gcc

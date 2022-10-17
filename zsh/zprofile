@@ -67,3 +67,5 @@ precmd() {
   # sets the tab title to current dir
   echo -ne "\e]1;${PWD##*/}\a"
 }
+# Set PATH, MANPATH, etc., for Homebrew.
+eval "$(/opt/homebrew/bin/brew shellenv)"

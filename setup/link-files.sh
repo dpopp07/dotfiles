@@ -12,13 +12,13 @@ ln -fs ~/dotfiles/zsh/git/alias.zsh ~/.zprezto/modules/git/alias.zsh
 ln -fs ~/dotfiles/git/gitconfig ~/.gitconfig
 
 # sublime
-ln -fs ~/dotfiles/sublime/Agila\ Theme ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
-ln -fs ~/dotfiles/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
-ln -fs ~/dotfiles/sublime/Shell-Unix-Generic.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
-ln -fs ~/dotfiles/sublime/JavaScript\ \(Babel\).sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
-ln -fs ~/dotfiles/sublime/ColorHighlighter.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
-ln -fs ~/dotfiles/sublime/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
-ln -fs ~/dotfiles/sublime/SublimeLinter.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+ln -fs ~/dotfiles/sublime/Agila\ Theme ~/Library/Application\ Support/Sublime\ Text/Packages/
+ln -fs ~/dotfiles/sublime/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text/Packages/User/
+ln -fs ~/dotfiles/sublime/Shell-Unix-Generic.sublime-settings ~/Library/Application\ Support/Sublime\ Text/Packages/User/
+ln -fs ~/dotfiles/sublime/JavaScript\ \(Babel\).sublime-settings ~/Library/Application\ Support/Sublime\ Text/Packages/User/
+ln -fs ~/dotfiles/sublime/ColorHighlighter.sublime-settings ~/Library/Application\ Support/Sublime\ Text/Packages/User/
+ln -fs ~/dotfiles/sublime/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text/Packages/User/
+ln -fs ~/dotfiles/sublime/SublimeLinter.sublime-settings ~/Library/Application\ Support/Sublime\ Text/Packages/User/
 
 # iterm2
 ln -fs ~/dotfiles/iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
@@ -27,7 +27,4 @@ ln -fs ~/dotfiles/iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/com.g
 ln -fs ~/dotfiles/eslint/eslintrc.js ~/.eslintrc.js
 
 # duti
-ln -fs ~/dotfiles/config/defaults.duti ~/config/duti/.duti
-
-# install global node modules - !!! probably move
-./install-npm-modules.sh
+ln -fs ~/dotfiles/config/defaults.duti ~/.config/duti/

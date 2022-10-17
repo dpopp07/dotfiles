@@ -5,7 +5,7 @@ fi
 
 # create config folder for duti
 if [ ! -d "~/.config/duti" ]; then
-  mkdir ~/.config/duti
+  mkdir -p ~/.config/duti
 fi
 
 if [ ! -d "~/npm-global" ]; then
