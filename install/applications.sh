@@ -21,6 +21,7 @@ brew install --cask firefox
 brew install --cask iterm2
 brew install --cask sublime-text
 brew install --cask spotmenu
+brew install --cask zoom
 
 brew install golang
 brew install z
@@ -30,6 +31,7 @@ brew install duti
 
 ## work specific
 brew install --cask adoptopenjdk8
+brew install --cask intellij-idea-ce
 brew install maven
 brew install hashicorp/tap/terraform
 brew install python
