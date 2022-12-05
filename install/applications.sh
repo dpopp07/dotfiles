@@ -23,31 +23,6 @@ brew install z
 brew install git-delta
 brew install duti
 
-## work specific
-# ?? idk where this is coming from but it was run
-# on my current machine right when i got it
-brew install gcc
-
-brew install --cask adoptopenjdk8
-brew install --cask intellij-idea-ce
-
-brew tap mdogan/zulu
-brew info zulu-jdk8
-
-brew install jq
-brew install maven
-brew install hashicorp/tap/terraform
-brew install python
-brew install travis
-brew install pyenv
-brew install golangci-lint
-brew install gnu-sed
-brew install findutils
-brew install less
-
-## work specific - ibmcloud cli tool
-curl -fsSL https://clis.cloud.ibm.com/install/osx | sh
-
 # install zprezto
 git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
