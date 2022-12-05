@@ -10,11 +10,13 @@
 # refresh profile
 . ~/.zshrc
 
-./install/post-link-applications.sh
-
 # execute duti
 duti ~/.config/duti/defaults.duti
 
+./install/post-link-applications.sh
+
 # install node and npm modules
 ./install/node.sh
+
+## make this work only
 ./install/npm-modules.sh
