@@ -10,10 +10,6 @@ cd ~
 # true for apple silicon machines
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# ?? idk where this is coming from but it was run
-# on my current machine right when i got it
-brew install gcc
-
 # install applications available with brew
 brew install --cask rectangle
 brew install --cask spotify
@@ -25,13 +21,21 @@ brew install --cask zoom
 
 brew install golang
 brew install z
-brew install jq
 brew install git-delta
 brew install duti
 
 ## work specific
+# ?? idk where this is coming from but it was run
+# on my current machine right when i got it
+brew install gcc
+
 brew install --cask adoptopenjdk8
 brew install --cask intellij-idea-ce
+
+brew tap mdogan/zulu
+brew info zulu-jdk8
+
+brew install jq
 brew install maven
 brew install hashicorp/tap/terraform
 brew install python
