@@ -15,13 +15,11 @@ source "$(brew --prefix)/etc/profile.d/z.sh"
 
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-# export PATH=/Users/dustinpopp/Library/Python/3.9/bin:/usr/local/opt/python/libexec/bin:$PATH
 
 export N_PREFIX=~/n
 export PATH=~/npm-global/bin:$PATH
 export PATH=~/n/bin:$PATH
 
-# export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home
 
 # added by travis gem

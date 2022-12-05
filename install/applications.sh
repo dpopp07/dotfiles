@@ -10,10 +10,6 @@ cd ~
 # true for apple silicon machines
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# ?? idk where this is coming from but it was run
-# on my current machine right when i got it
-brew install gcc
-
 # install applications available with brew
 brew install --cask rectangle
 brew install --cask spotify
@@ -24,24 +20,8 @@ brew install --cask spotmenu
 
 brew install golang
 brew install z
-brew install jq
 brew install git-delta
 brew install duti
-
-## work specific
-brew install --cask adoptopenjdk8
-brew install maven
-brew install hashicorp/tap/terraform
-brew install python
-brew install travis
-brew install pyenv
-brew install golangci-lint
-brew install gnu-sed
-brew install findutils
-brew install less
-
-## work specific - ibmcloud cli tool
-curl -fsSL https://clis.cloud.ibm.com/install/osx | sh
 
 # install zprezto
 git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
