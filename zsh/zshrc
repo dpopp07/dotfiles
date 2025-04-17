@@ -19,19 +19,19 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 # export PATH=/Users/dustinpopp/Library/Python/3.9/bin:/usr/local/opt/python/libexec/bin:$PATH
 
 export N_PREFIX=~/n
-export PATH=~/npm-global/bin:$PATH
 export PATH=~/n/bin:$PATH
+export PATH=~/npm-global/bin:$PATH
 
 # export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 # export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
 
 # added by travis gem
 [ -f /Users/dpopp/.travis/travis.sh ] && source /Users/dpopp/.travis/travis.sh
 
-autoload -U +X bashcompinit && bashcompinit
-complete -o nospace -C /usr/local/bin/terraform terraform
-source /usr/local/ibmcloud/autocomplete/zsh_autocomplete
+autoload -U +X bashcompinit && bashcompinit # work only
+complete -o nospace -C /usr/local/bin/terraform terraform # work only
+source /usr/local/ibmcloud/autocomplete/zsh_autocomplete # work only
 
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init --path)"
@@ -40,3 +40,7 @@ fi
 # work
 export JAR=/Users/dustinpopp/dev/openapi-sdkgen/target/openapi-sdkgen-99-SNAPSHOT.jar
 export SDKGEN_JAR=/Users/dustinpopp/dev/openapi-sdkgen/target/openapi-sdkgen-99-SNAPSHOT.jar
+alias local-validator='node packages/validator/src/cli-validator/index.js'
+
+# temp - work
+export PATH=~/openapi-sdkgen:$PATH

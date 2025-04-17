@@ -7,11 +7,10 @@
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/Agila Theme/BlueSteel.tmTheme",
 	"ensure_newline_at_eof_on_save": false,
-	"font_size": 16,
+	"font_size": 17,
 	"gpu_window_buffer": "auto",
 	"ignored_packages":
 	[
-		"SublimeLinter-flake8",
 		"Vintage",
 	],
 	"line_padding_bottom": 3,
@@ -22,4 +21,5 @@
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": false,
 	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?",
+	"index_files": true,
 }

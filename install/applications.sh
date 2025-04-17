@@ -33,7 +33,7 @@ brew install --cask adoptopenjdk8
 brew install --cask intellij-idea-ce
 
 brew tap mdogan/zulu
-brew info zulu-jdk8
+brew info zulu-jdk8 # is this supposed to be info? not install?
 
 brew install jq
 brew install maven
@@ -56,5 +56,6 @@ git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$H
 cd ~/dev
 git clone https://github.com/paulirish/git-open.git
 
-cd /usr/local/bin/
+cd /usr/local/bin/ # !!! need to add a check to create the folder if it doesn't exist
+# it should be there - it's still included in path!!
 ln -fs ~/dev/git-open/git-open .
