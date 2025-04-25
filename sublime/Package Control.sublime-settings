@@ -1,0 +1,21 @@
+{
+	"installed_packages":
+	[
+		"Dockerfile Syntax Highlighting",
+		"JsPrettier",
+		"LSP",
+		"LSP-dockerfile",
+		"LSP-eslint",
+		"LSP-gopls",
+		"LSP-json",
+		"LSP-typescript",
+		"LSP-yaml",
+		"MarkdownEditing",
+		"Package Control",
+		"SideBarTools",
+		"Terraform",
+	],
+	"in_process_packages":
+	[
+	],
+}

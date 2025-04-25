@@ -6,13 +6,12 @@
 	"auto_complete_delay": 1,
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/Agila Theme/BlueSteel.tmTheme",
-	"ensure_newline_at_eof_on_save": false,
+	"ensure_newline_at_eof_on_save": true,
 	"font_size": 16,
 	"gpu_window_buffer": "auto",
 	"ignored_packages":
 	[
-		"SublimeLinter-flake8",
-		"Vintage",
+		"Vintage", // Diable vi mode.
 	],
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
@@ -20,6 +19,7 @@
 	"tab_size": 2,
 	"theme": "LaTigra.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": false,
+	"trim_trailing_white_space_on_save": "all",
 	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?",
+	"index_files": true,
 }
