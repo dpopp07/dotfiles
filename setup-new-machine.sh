@@ -21,8 +21,3 @@ duti ~/.config/duti/defaults.duti
 
 # install node - needs to come after linking and refreshing profile
 ./install/node.sh
-
-# pre-install npm modules on work machine only
-if [[ $1 == "work" ]]; then
-  ./install/npm-modules.sh
-fi

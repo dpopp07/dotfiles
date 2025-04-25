@@ -36,8 +36,5 @@ ln -fs ~/dotfiles/sublime/Markdown.sublime-settings               $SUBLIME_USER_
 # iterm2
 ln -fs ~/dotfiles/iterm2/com.googlecode.iterm2.plist  ~/Library/Preferences/com.googlecode.iterm2.plist
 
-# eslint
-ln -fs ~/dotfiles/eslint/eslintrc.js                  ~/.eslintrc.js
-
 # duti
 ln -fs ~/dotfiles/config/defaults.duti                ~/.config/duti/
