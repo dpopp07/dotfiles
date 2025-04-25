@@ -13,17 +13,9 @@ fi
 # Customize to your needs...
 source "$(brew --prefix)/etc/profile.d/z.sh"
 
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-
 export N_PREFIX=~/n
 export PATH=~/npm-global/bin:$PATH
 export PATH=~/n/bin:$PATH
-
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home
-
-# added by travis gem
-[ -f /Users/dpopp/.travis/travis.sh ] && source /Users/dpopp/.travis/travis.sh
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/terraform terraform
