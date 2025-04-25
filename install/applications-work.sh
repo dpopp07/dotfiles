@@ -12,11 +12,7 @@ brew info zulu-jdk8
 
 brew install jq
 brew install maven
-brew install hashicorp/tap/terraform
-brew install python
 brew install travis
-brew install pyenv
-brew install golangci-lint
 brew install gnu-sed
 brew install findutils
 brew install less

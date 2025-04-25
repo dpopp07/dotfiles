@@ -13,14 +13,13 @@ fi
 ./setup/link-files.sh
 
 # refresh profile
+. ~/.zprofile
 . ~/.zshrc
 
 # execute duti
 duti ~/.config/duti/defaults.duti
 
-./install/post-link-applications.sh
-
-# install node
+# install node - needs to come after linking and refreshing profile
 ./install/node.sh
 
 # pre-install npm modules on work machine only

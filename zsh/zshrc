@@ -13,13 +13,8 @@ fi
 # Customize to your needs...
 source "$(brew --prefix)/etc/profile.d/z.sh"
 
-export N_PREFIX=~/n
-export PATH=~/npm-global/bin:$PATH
-export PATH=~/n/bin:$PATH
-
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/terraform terraform
-source /usr/local/ibmcloud/autocomplete/zsh_autocomplete
 
 if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init --path)"

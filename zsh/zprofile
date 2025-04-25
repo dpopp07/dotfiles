@@ -41,8 +41,16 @@ typeset -gU cdpath fpath mailpath path
 #   $cdpath
 # )
 
+# Used by n to provide the Node version install location.
+export N_PREFIX=~/n
+
+# This is just for sharing the location between scripts.
+export NPM_GLOBAL=~/npm-global
+
 # Set the list of directories that Zsh searches for programs.
 path=(
+  $N_PREFIX/bin
+  $NPM_GLOBAL/bin
   /usr/local/{bin,sbin}
   $path
 )

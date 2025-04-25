@@ -20,10 +20,15 @@ brew install --cask sublime-text
 brew install --cask spotmenu
 brew install --cask drawio
 
-brew install golang
-brew install z
-brew install git-delta
 brew install duti
+brew install z
+brew install golang
+brew install golangci-lint
+brew install delve
+brew install hashicorp/tap/terraform
+brew install python
+brew install pyenv
+brew install git-delta
 
 # install zprezto
 git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
