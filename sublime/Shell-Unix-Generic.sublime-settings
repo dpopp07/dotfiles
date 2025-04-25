@@ -1,9 +1,13 @@
 {
 	"extensions":
 	[
+		// Include dotfile-project names and final names.
 		".zpreztorc",
+		"zpreztorc",
 		".zprofile",
-    "zshrc",
+		"zprofile",
+    ".zshrc",
+		"zshrc",
 		"prompt_iroh_setup"
 	]
 }
