@@ -14,9 +14,11 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install --cask rectangle
 brew install --cask spotify
 brew install --cask firefox
+brew install --cask slack
 brew install --cask iterm2
 brew install --cask sublime-text
 brew install --cask spotmenu
+brew install --cask drawio
 
 brew install golang
 brew install z
