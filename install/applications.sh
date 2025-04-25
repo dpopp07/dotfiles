@@ -19,6 +19,7 @@ brew install --cask iterm2
 brew install --cask sublime-text
 brew install --cask spotmenu
 brew install --cask drawio
+brew install --cask zoom
 
 brew install duti
 brew install z
