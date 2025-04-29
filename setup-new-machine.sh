@@ -1,23 +1,23 @@
-# ensure file structure is ready for future scripts
+# Ensure file structure is ready for future scripts.
 ./setup/prepare-folders.sh
 
-# install applications
+# Install applications.
 ./install/applications.sh
 
-# install work-only apps
+# Install work-only apps.
 if [[ $1 == "work" ]]; then
   ./install/applications-work.sh
 fi
 
-# link configuration and settings files
+# Link configuration and settings files.
 ./setup/link-files.sh
 
-# refresh profile
+# Refresh profile.
 . ~/.zprofile
 . ~/.zshrc
 
-# execute duti
+# Execute duti.
 duti ~/.config/duti/defaults.duti
 
-# install node - needs to come after linking and refreshing profile
+# Install node - needs to come after linking and refreshing profile.
 ./install/node.sh

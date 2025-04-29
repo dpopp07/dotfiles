@@ -1,16 +1,13 @@
 cd ~
 
-# install developer tools
-# xcode-select --install (macos prompts you for this when you run git)
-
-# install homebrew
+# Install Homebrew.
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# assumes brew --prefix is `/opt/homebrew`,
-# true for apple silicon machines
+# Assumes brew --prefix is `/opt/homebrew`,
+# true for apple silicon machines.
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# install applications available with brew
+# Install applications available through Homebrew.
 brew install --cask rectangle
 brew install --cask flux
 brew install --cask spotify
@@ -31,10 +28,10 @@ brew install golangci-lint
 brew install git-delta
 brew install postgresql
 
-# install zprezto
+# Install zprezto.
 git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
-# install git open
+# Install and link git-open.
 cd ~/dev
 git clone https://github.com/paulirish/git-open.git
 

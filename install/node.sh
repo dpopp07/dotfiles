@@ -1,10 +1,10 @@
 cd ~
 
-# need to have $N_PREFIX set
+# Need to have $N_PREFIX set, which is set in zprofile.
 brew install n
 
-# install node
+# Install Node.
 n latest
 
-# configure global install location for npm modules
+# Configure global install location for npm modules.
 npm config set prefix "$NPM_GLOBAL"

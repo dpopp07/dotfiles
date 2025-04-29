@@ -14,8 +14,6 @@ fi
 source "$(brew --prefix)/etc/profile.d/z.sh"
 
 autoload -U +X bashcompinit && bashcompinit
-complete -o nospace -C /usr/local/bin/terraform terraform
 
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init --path)"
-fi
+# For work machines only.
+complete -o nospace -C /usr/local/bin/terraform terraform

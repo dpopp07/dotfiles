@@ -1,5 +1,5 @@
 [core]
-	excludesfile = /Users/dpopp/.gitignore_global
+	excludesfile = /Users/dustinpopp/.gitignore_global
 	editor = subl -n -w
 [filter "lfs"]
 	clean = git-lfs clean -- %f
@@ -11,10 +11,6 @@
 	email = dpopp07@gmail.com
 [commit]
 	gpgsign = false
-[hub]
-	host = github.ibm.com
-[url "git@github.ibm.com:"]
-	insteadOf = https://github.ibm.com/
 [branch]
 	sort = -committerdate
 [status]
