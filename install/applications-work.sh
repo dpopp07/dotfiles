@@ -1,8 +1,7 @@
-# work machine applications
+# Work machine applications.
 
 cd ~
 
-brew install gcc
 brew install delve
 brew install hashicorp/tap/terraform
 brew install python

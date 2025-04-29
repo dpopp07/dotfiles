@@ -1,5 +1,5 @@
-# note: for this to work properly, dotfiles/ MUST be in the home directory
-if [ ! -d ~/dotfiles ]; then
+# Note: for this to work properly, 'dotfiles' MUST be in the home directory.
+if [ ! -d "~/dotfiles" ]; then
   echo "dotfiles must be in the home directory!"
   exit 1
 fi
@@ -15,9 +15,16 @@ ln -fs ~/dotfiles/zsh/git/alias.zsh             ~/.zprezto/modules/git/alias.zsh
 # git
 ln -fs ~/dotfiles/git/gitconfig                 ~/.gitconfig
 
-# sublime
+# Sublime
 SUBLIME_PACKAGES="~/Library/Application\ Support/Sublime\ Text/Packages"
 SUBLIME_USER_SETTINGS="$SUBLIME_PACKAGES/User"
+
+# The folders should be there, but it's happened before that
+# they weren't by this step. Make sure they are present.
+if [ ! -d "$SUBLIME_PACKAGES" ]; then
+  mkdir $SUBLIME_PACKAGES
+  mkdir $SUBLIME_USER_SETTINGS
+fi
 
 ln -fs ~/dotfiles/sublime/Agila\ Theme                            $SUBLIME_PACKAGES
 
@@ -33,7 +40,7 @@ ln -fs ~/dotfiles/sublime/JsPrettier.sublime-settings             $SUBLIME_USER_
 ln -fs ~/dotfiles/sublime/LSP.sublime-settings                    $SUBLIME_USER_SETTINGS
 ln -fs ~/dotfiles/sublime/Markdown.sublime-settings               $SUBLIME_USER_SETTINGS
 
-# iterm2
+# iTerm2
 ln -fs ~/dotfiles/iterm2/com.googlecode.iterm2.plist  ~/Library/Preferences/com.googlecode.iterm2.plist
 
 # duti
