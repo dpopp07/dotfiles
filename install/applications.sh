@@ -26,7 +26,6 @@ brew install z
 brew install golang
 brew install golangci-lint
 brew install git-delta
-brew install postgresql
 
 # Install zprezto.
 git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"

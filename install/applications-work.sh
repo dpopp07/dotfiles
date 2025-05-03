@@ -2,9 +2,6 @@
 
 cd ~
 
+brew install --cask visual-studio-code
 brew install delve
-brew install hashicorp/tap/terraform
 brew install python
-brew install uv
-brew install kubernetes-cli
-brew install temporal
